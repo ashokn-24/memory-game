@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#board{   
+    height: 100px;
+    width: 400px;
+    text-align: start;
+    padding: 50px;
+    display: block;
+    background-color: #363636;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #FFF;
+
+}
+
+
+#container{
+    background: linear-gradient(135deg, #f703ff, #006eff) ;
+    width: 90%;
+    max-width: 470px;
+
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  linear-gradient(135deg, #f703ff, #006eff);
+
+}
+
